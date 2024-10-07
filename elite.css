@@ -1,0 +1,145 @@
+body{
+    text-align: center;
+    font-family: poppins;
+    background: url(solar.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+
+
+}
+nav{
+    font-size: 40px;
+    font-weight: 800;
+    color: blue;
+    text-decoration: none;
+}
+#home{
+    text-decoration: none;
+}
+#about{
+    text-decoration: none;
+}
+#members{
+    text-decoration: none;
+}
+#contact{
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+header{
+    font-size: 70px;
+    background-color: hsla(240, 100%, 50%, 0.3);
+}
+#logo{
+    width: 80%;
+    height: 400px;
+    border-radius: 5em;
+    opacity: 0.9;
+}
+table{
+    background-color: hsla(0, 0%, 100%, 0.9);
+    
+
+    opacity: 0.8;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+}
+.container>div{
+    width: 35%;
+}
+.vision{
+    background-color: hsla(240, 100%, 50%, 0.4);
+    font-weight: 800;
+    color: white;
+    font-size: 25px;
+}
+.mission{
+    background-color: rgba(0, 0, 255, 0.6);
+    font-weight: 800;
+    color: white;
+    font-size: 25px;
+}
+.values{
+    background-color: hsla(240, 100%, 50%, 0.8);
+    font-weight: 800;
+    color: white;
+    font-size: 25px;
+}
+.image{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+section{
+    font-size: 40px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 20px;
+}
+form{
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0.8);
+}
+article{
+    display: flex;
+}
+.opacity{
+    opacity: 0.7;
+}
+.core{
+    background-color: hsla(240, 100%, 50%, 0.3);
+    font-size: 30px
+}
+.about{
+    background-color: hsla(240, 100%, 50%, 0.6);
+    font-size: 25px;
+}
+h2{
+    font-size: 40px;
+}
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 40px;
+    border: none;
+    border-radius: 0.5em;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: blue;}
